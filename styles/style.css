@@ -15,7 +15,6 @@ header {
   height: 100vh;
   background: url("../assets/images/BG.png");
   background-size: cover;
-  mix-blend-mode: multiply;
 }
 nav {
   display: flex;
@@ -61,7 +60,7 @@ nav {
 .btn:hover {
   font-size: 16px;
 }
-.banner-note {
+.note {
   background-color: var(--secondary-color);
   display: inline;
   padding: 8px 16px;
@@ -74,14 +73,15 @@ nav {
 .banner-note > a {
   color: var(--primary-color);
 }
-.banner-title {
+.title {
   font-size: 50px;
   font-weight: 900;
-  margin-bottom: 20px;
-}
-.banner-description {
-  color: rgb(136, 131, 131);
   margin-bottom: 10px;
+  margin-top: 10px;
+}
+.description {
+  color: rgb(136, 131, 131);
+  margin-bottom: 20px;
 }
 .primary-btn {
   background: var(--primary-color);
@@ -99,4 +99,107 @@ nav {
   flex-direction: row-reverse;
   justify-content: space-around;
   margin-top: 10%;
+}
+/* qubly section styles start */
+.qubly-section {
+  padding: 150px 0;
+}
+.qubly-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.qubly-description {
+  font-size: 22px;
+}
+.note > img {
+  width: 20px;
+}
+.items {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+.item {
+  text-align: center;
+}
+.item > img {
+  padding-top: 30px;
+}
+.item-title {
+  padding-bottom: 15px;
+}
+/* qubly section styles end */
+
+/* product section styles start */
+.product {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.product-box {
+  padding-top: 150px;
+  padding-left: 150px;
+}
+.concentric-circle {
+  width: 400px;
+  height: 400px;
+}
+.img2 {
+  width: 320px;
+  position: relative;
+  top: -360px;
+  left: 40px;
+}
+.img3 {
+  width: 250px;
+  position: relative;
+  top: -650px;
+  left: 75px;
+}
+/* engineer section styles start */
+.engineer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 300px;
+}
+/* engineer section styles end */
+
+/* testimonial section styles start */
+.testimonial {
+  width: 100%;
+  height: 100vh;
+  background: url("../assets/images/Path 606.png");
+  background-size: cover;
+}
+.testimonial-description {
+  padding-top: 250px;
+  font-size: 32px;
+  text-align: center;
+}
+.profile-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  gap: 10px;
+}
+.profile-info h5{
+  font-size: 22px;
+}
+.testimonial-container {
+  border-bottom: 1px solid #ddd;
+}
+.testimonial-items{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 10%;
+}
+.testimonial-item > p{
+  font-size: 32px;
+  font-weight: 800;
 }
